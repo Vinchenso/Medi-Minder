@@ -35,6 +35,7 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
     "popper.js": "^1.12.9",
+    "postcss": "^6.0.14",
     "resolve-url-loader": "^2.2.1",
     "webpack": "^3.10.0"
   },
