@@ -1,32 +1,22 @@
         <table class="table rounded">
           <thead class="thead-light">
-            <tr>
+            <tr class=''>
               <th>#</th>
-              <th>First Name</th>
-              <th>Last Name</th>
+              <th style="width:60%">Contact Details</th>
+              <th># Services Rendered</th>
+              <th># Messages Sent</th>
             </tr>
           </thead>
           <tbody>
+
+            <% 5.times do  %>
             <tr class='table-light'>
-              <th scope="row">1</th>
+              <td>1</td>
               <td>Mark</td>
-              <td>Otto</td>
+              <td>12</td>
+              <td>2</td>
             </tr>
-            <tr class='table-light'>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-            </tr>
-            <tr class='table-light'>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-            </tr>
-            <tr class='table-light'>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-            </tr>
+            <% end %>
 
           </tbody>
         </table>
