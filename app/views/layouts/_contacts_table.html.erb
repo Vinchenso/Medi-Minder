@@ -1,23 +1,30 @@
-        <table class="table rounded">
-          <thead class="thead-light">
-            <tr class=''>
-              <th>#</th>
-              <th style="width:60%">Contact Details</th>
-              <th># Services Rendered</th>
-              <th># Messages Sent</th>
-            </tr>
-          </thead>
-          <tbody>
+<table class="table rounded">
+  <thead class="thead-light">
+    <tr class=''>
+      <th style='width:10%'></th>
+      <th style="width:50%">Contact Details</th>
+      <th># Services Rendered</th>
+      <th># Messages Sent</th>
+    </tr>
+  </thead>
+  <tbody>
 
-            <% 5.times do  %>
-            <tr class='table-light'>
-              <td>1</td>
-              <td>Mark</td>
-              <td>12</td>
-              <td>2</td>
-            </tr>
-            <% end %>
+    <% 5.times do  %>
+      <tr class='table-light'>
+        <td class= " align-middle">
+          <img src=http://i.pravatar.cc/300 class="img-rounded" alt="Cinque Terre" width="60" height="60">
+        </td>
+        <td class='align-middle'>
+          <span>Mark MyWords</span><br/>
+          <span class='small'>(+27) 123 33333</span>
+        </td>
+        <td class="align-middle">
+          12
+        </td>
+        <td class='align-middle'>2</td>
+      </tr>
+    <% end %>
 
-          </tbody>
-        </table>
+  </tbody>
+</table>
 
